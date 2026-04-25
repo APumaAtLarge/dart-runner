@@ -1,0 +1,8 @@
+
+services:
+  dart_api:
+    build: .
+    container_name: my_dart_api
+    restart: unless-stopped
+    ports:
+      - "2000:2000"
